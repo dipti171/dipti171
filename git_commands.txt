@@ -1,0 +1,40 @@
+git init              - for initialize repo
+git status            - checking'
+
+         untracked -when its available in file system(not avilable in git) [red]
+         staged  - (green)
+         tracked - available in git (in version control)
+
+untracked -> staged -> tracked
+
+for untracked -> staged           command         ---- git add fileName  
+for staged -> tracked             command         ---- git commit -m "commit message"
+
+for tracked -> unstaged           command         ---- git restore filename
+
+
+git init
+git status
+git add .
+git status
+git commit -m "message"
+git bramch -M main 
+git remote add origin url
+git push origin main 
+
+
+Create New personal access token (classic)
+        setting -> developer setting ->personal access token ->token (classic) -> generate new token(classic)
+        passkey/password
+        tokenName
+        select access of repo
+        Generate Token
+
+git remote set-url origin https://tokenPaste@github.com/dipti171/dipti171
+     here -> tokenPaste -> it is a generate token url
+            dipti171 -> first is a github profile fileName
+            dipti171 -> second is a github repo 
+   
+
+
+
